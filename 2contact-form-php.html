@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE HTML>
+
+<HEAD>
+   <TITLE>FORMULAIRE</TITLE>
+</HEAD>
+
+<BODY>
+
+<H1>FORMULAIRE PHP ! </H1>
+<br />
+<br /> 
+
+<!-- FORMULAIRE methode GET - NON SECURISE -->
+
+<form methode="GET" action="">
+
+Nom: <br />
+<input type="texte" name="Nom" placeholder="Nom"><br /><br />
+
+Prenom: <br />
+<input type="texte" name="Prenom" placeholder="Prenom"><br /><br />
+
+<input type="submit" value="Valier">
+
+</form>
+
+<br />
+<br />
+
+<!-- PHP -->
+
+<?php
+
+if(isset($_GET['Nom']) AND isset($_GET['Prenom']))
+{
+echo $_GET['Nom'] . " <br />";
+echo $_GET['Prenom'];
+} 
+
+?>
+
+
+
+<!-- FORMULAIRE methode POST - SECURISE -->
+
+<form methode="POST" action="">
+
+Nom: <br />
+<input type="texte" name="Nom" placeholder="Nom"><br /><br />
+
+Prenom: <br />
+<input type="texte" name="Prenom" placeholder="Prenom"><br /><br />
+
+<input type="submit" value="Valier">
+
+</form>
+
+<br />
+<br />
+
+<!-- PHP -->
+
+<?php
+
+if(isset($_POST['Nom']) AND isset($_POST['Prenom']))
+{
+echo $_POST['Nom'] . " <br />";
+echo $_POST['Prenom'];
+} 
+
+?>
+
+<br />
+<br /> 
+
+
+
+
+
+
+</BODY>
+</HTML>

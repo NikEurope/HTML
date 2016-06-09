@@ -1,3 +1,12 @@
+<!DOCTYPE HTML>
+<HEAD>
+   <TITLE>MySQL PHP</TITLE>
+   <meta charset="utf-8">
+</HEAD>
+<BODY>
+<H1>MySQL PHP Chat basique</H1>
+<br /> 
+ 
 <!-- MySQL PHP Chat basique -->
 
 <form method="POST" action="">
@@ -5,3 +14,6 @@
 <textarea type = "text" name="message" placeholder="MESSAGE"/></textarea><br /><br />
 <input type="submit" value="ENVOYER" />
 </form>
+
+</BODY>
+</HTML>

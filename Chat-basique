@@ -1,0 +1,7 @@
+<!-- MySQL PHP Chat basique -->
+
+<form method="POST" action="">
+<input type="text" name="pseudo" placeholder="PSEUDO" /><br /><br />
+<textarea type = "text" name="message" placeholder="MESSAGE"/></textarea><br /><br />
+<input type="submit" value="ENVOYER" />
+</form>

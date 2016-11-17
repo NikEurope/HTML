@@ -12,3 +12,7 @@ https://htmlpreview.github.io/?https://github.com/NikEurope/HTML/blob/master/2co
 
 Base Page HTML:
 https://htmlpreview.github.io/?https://github.com/NikEurope/HTML/blob/master/1BasePage.html
+
+
+FormPaiement HTML/CSS
+https://htmlpreview.github.io/?https://github.com/NikEurope/HTML/blob/master/FormPaiement/index.html

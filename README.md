@@ -8,3 +8,7 @@ https://htmlpreview.github.io/?https://github.com/NikEurope/HTML/blob/master/1co
 
 Contact form PHP:
 https://htmlpreview.github.io/?https://github.com/NikEurope/HTML/blob/master/2contact-form-php.html
+
+
+Base Page HTML:
+https://htmlpreview.github.io/?https://github.com/NikEurope/HTML/blob/master/BasePage.html
